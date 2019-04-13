@@ -1,0 +1,159 @@
+.container_2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+  }
+ 
+.button {
+    display: inline-block;
+    border-radius: 50%;
+    float:center;
+    border: 75%;
+     
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 45%;
+    color: white;
+  
+   
+  }
+  
+  .button image {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\FE3E';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;}
+
+    div.container_3 {
+        position:relative;
+    }
+    
+    div.container_3:before{
+        content: "";
+        position: fixed;
+        top :0;
+        left:0;
+        bottom: 0;
+        right: -20px;
+        width:100%;
+        height:100%;
+    
+        z-index: 1;
+        background-image: url("../images/tea-background.jpg");
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+    
+    }
+    div.content_3{
+        position: relative;
+        z-index: 2;
+    }
+    h4 {
+        position: fixed;
+        
+       
+        margin-left: 45.75%;
+        margin-top: 7%;
+        
+        color: maroon;
+        font-family: "Comic Sans MS";
+        font-size: 35px;
+        
+    
+      }
+
+      #facts{
+        
+        border-radius: 50%;
+        
+        border: 75%;
+         height: 100;
+         width : 100;
+         background-image : "coffee1.jpg";
+        text-align: center;
+       
+        margin-top: 20px;
+      }
+      #facts{
+        
+        border-radius: 50%;
+        
+        border: 75%;
+         height: 100;
+         width : 100;
+         background-image : "coff.jpg";
+        text-align: center;
+       
+        margin-top: 20px;
+      }
+      
+      .dropdown {
+      position:relative;
+         margin-left: 25%;
+         margin-top: 5%;
+        
+         
+
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .desc {
+        padding: 15px;
+        text-align: center;
+      }
+      ul{
+         float:center;
+         margin: 0;
+      }
+      li{
+          float:center;
+          margin-left: 25%;
+      }
